@@ -1,0 +1,104 @@
+body {
+  font: 12px/14px "Josefin Sans", sans-serif;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+a {
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+.clearfix::after {
+  display: table;
+  content: " ";
+  clear: both;
+  overflow: hidden;
+}
+.header-holder {
+  background-color: #f2a93b;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.header-cont {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: start;
+  margin: 100px 0 130px;
+}
+.main {
+  display: block;
+  width: 750px;
+  margin: 0 auto 48px;
+}
+
+.container-desc {
+  width: 292px;
+  height: 228px;
+  border: 2px solid;
+  border-radius: 9px;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin-bottom: 14px;
+  padding: 55px 52px 0 12px;
+  position: relative;
+}
+.container-desc:nth-child(2n-1) {
+  margin-right: 14px;
+  padding: 55px 24px 0 40px;
+}
+
+.container-desc h2 {
+  margin: 0;
+}
+
+.nusha {
+  background-color: #f8d4de;
+  border-color: #f0c5cd;
+}
+.img-nusha {
+  position: absolute;
+  top: -109px;
+  left: -101px;
+}
+.krosh {
+  background-color: #b8e2f9;
+  border-color: #a5d8f4;
+}
+.img-krosh {
+  position: absolute;
+  top: -83px;
+  right: -78px;
+}
+.barash {
+  background-color: #f6c9ef;
+  border-color: #e6d9e1;
+}
+.img-barash {
+  position: fixed;
+  bottom: -35px;
+  left: 215px;
+}
+.losyash {
+  background-color: #f3b63f;
+  border-color: #ebd9b0;
+}
+.img-losyash {
+  position: absolute;
+  bottom: -137px;
+  right: -78px;
+}
