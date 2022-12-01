@@ -1,0 +1,65 @@
+form {
+    border: 1px solid  rgb(141, 25, 141);
+    border-radius: 10px;
+    background-color: pink;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(141, 25, 141);
+    padding: 20px 0 0;
+}
+.formpart {
+    margin: 20px 40px 5px;
+}
+.title {
+    display: block;
+    color:   rgb(141, 25, 141);
+    margin: 5px 0;
+}
+.field {
+    border: 1px solid  rgb(141, 25, 141);
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+    width: 600px;
+}
+.sf {
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 0;
+    width: 620px;
+    background-color:  lightgrey;
+    font-size: 12px;
+}
+fieldset {
+    border: 0;
+    margin: 0 auto;
+    padding: 0; 
+}
+.button {
+    text-align: right;
+    margin:  0;
+}
+.butres {
+    border: 1px solid  rgb(141, 25, 141);
+    border-radius: 10px;
+    background-color: rgb(230, 101, 161);
+    color:   rgb(141, 25, 141);
+    margin: 0px 30px 30px 10px;
+    padding: 7px 15px;
+    font-size: 12px;
+}
+.butsub {
+    border: 1px solid  rgb(141, 25, 141);
+    border-radius: 10px;
+    background-color:  rgb(141, 25, 141);
+    color: yellow;
+    margin: 0px 40px 30px 10px;
+    padding: 7px 15px;
+    font-size: 12px;
+}
+    

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R. Maliuta HW 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="#">
+    <h1>Contact form</h1>
+    <div class="formpart">
+        <label class="title" for="name">Your name</label>
+        <input class="field" type="text" name="username" id="name" placeholder="Your name">
+    </div>
+    <div class="formpart">
+        <label class="title" for="email">Your email</label>
+        <input class="field" type="email" name="useremail" id="email">
+    </div>
+    <div class="formpart">
+        <label class="title" for="age">Choose your age</label>
+        <select class="sf" name="userage" id="age">
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+        </select>
+    </div>
+    <fieldset class="formpart">
+        <legend class="title" >Choose your gender</legend>
+        <input type="radio" name="gender" id="radio1">
+        <label for="radio1">Male</label>
+        <input type="radio" name="gender" id="radio2">
+        <label for="radio2">Female</label>
+        <input type="radio" name="gender" id="radio3">
+        <label for="radio3">Another</label>
+    </fieldset>
+    <fieldset class="formpart">
+        <legend class="title" >Choose your optoin</legend>
+        <input type="checkbox" name="userop" id="optoin1">
+        <label for="optoin1">Optoin 1</label>
+        <input type="checkbox" name="userop" id="optoin2">
+        <label for="optoin2">Optoin 2</label>
+        <input type="checkbox" name="userop" id="optoin3">
+        <label for="optoin3">Optoin 3</label>
+        <input type="checkbox" name="userop" id="optoin4">
+        <label for="optoin4">Optoin 4</label>
+    </fieldset>
+    <div class="formpart" >
+        <label class="title" for="phone">Your phone</label>
+        <input class="field" type="tel" name="usertel" id="phone">
+    </div>
+    <div class="formpart">
+        <label  class="title" for="password">Your password</label>
+        <input class="field" type="password" name="userpass" id="password">
+    </div>
+    <div class="formpart">
+        <label class="title"  for="message">Your message</label>
+        <textarea class="field" name="usermessege" id="message" cols="30" rows="10"></textarea>
+    </div>
+    <div class="button">
+        <input class="butres" type="reset" name="buttonres" value="Reset">
+        <input class="butsub" type="submit" name="buttonsub" value="Submit">
+    </div>
+</form>
+</body>
+</html>
