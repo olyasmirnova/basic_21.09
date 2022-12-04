@@ -1,0 +1,76 @@
+body {
+  font: 14px/18px Arial, sans-serif;
+}
+
+.wrapper {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.header-logo img {
+  width: 124px;
+  height: 142px;
+}
+
+.header-menu {
+  width: 228px;
+  margin: 0 auto;
+}
+
+.header-menu ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.header-menu li {
+  padding: 4px 10px;
+  display: inline-block;
+}
+
+.header-menu li:hover {
+  background-color: rgb(57, 55, 55);
+  border-radius: 10px;
+}
+
+.header-menu li a {
+  font-weight: 700;
+  color: rgb(237, 75, 21);
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.container h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.box {
+  width: 1358px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 430px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid orange;
+  text-align: center;
+}
+
+.container-card img {
+  width: 400px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
